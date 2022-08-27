@@ -1,0 +1,11 @@
+package designpatterns.strategypattern;
+
+public class Flywithwings implements FlyBehaviour {
+
+    
+    public void fly() {
+        System.out.println("I'm flying!!");
+        
+    }
+    
+}
